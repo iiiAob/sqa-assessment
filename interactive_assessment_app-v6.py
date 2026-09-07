@@ -72,7 +72,7 @@ with st.sidebar:
     
     st.markdown("---")
     st.markdown("### ⚙️ สำหรับผู้คุมสอบ (Google Sheets Sync)")
-    DEFAULT_WEBAPP_URL = "" 
+    DEFAULT_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbyg1oxnUzu8abSueOEYeCLqrZNhHhuXv_V-sOfwMUSbDIE4kIBbW70jLzJxzOg7R275tg/exec" 
     sheet_url = st.text_input("Google Apps Script Web App URL", value=DEFAULT_WEBAPP_URL, type="password", placeholder="https://script.google.com/macros/s/.../exec")
     
     st.markdown("---")
